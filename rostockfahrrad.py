@@ -43,7 +43,7 @@ dftage_gedreht=df7tage_gedreht.reset_index()
 # %%
 dftage_gedreht
 # %%
-df_gesamt=pd.merge(df_standorte, dftage_gedreht,left_on="id", right_on="standort_id",how="left")
+df_gesamt=pd.merge(df_standorte, dftage_gedreht,left_on="standort_id", right_on="standort_id",how="left")
 # %%
 df_gesamt
 # %%
