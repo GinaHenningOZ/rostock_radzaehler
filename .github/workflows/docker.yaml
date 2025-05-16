@@ -40,7 +40,7 @@ jobs:
        
       - name: Run script
         run: |
-          python rostock_fahrrad.py
+          python rostockfahrrad.py
 
 
       - name: Commit and push changes
