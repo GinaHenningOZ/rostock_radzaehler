@@ -2,4 +2,4 @@ pandas
 requests
 chardet
 lxml
-matplot lib
+matplotlib
