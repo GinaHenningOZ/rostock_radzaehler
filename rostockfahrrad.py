@@ -77,5 +77,5 @@ df_gesamt_neu = pd.concat([df_rest, df_daten], axis=1)
 # %%
 df_gesamt_neu
 # %%
-df_gesamt_neu.to_csv("df_gesamt_neue.csv")
+df_gesamt_neu.to_csv("df_gesamt_neu.csv")
 # %%
